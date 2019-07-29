@@ -9,10 +9,10 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://drive.google.com/uc?export=download&id=1-EQMNFrPWJn_iS4H73bQy2aZvBCeU6j3'
-export_file_name = 'export.pkl'
+export_file_url = 'https://drive.google.com/uc?export=download&id=12dcHCZRgJ7aJbeBRQJnw04oo-Nz_InLk'
+export_file_name = 'resnet34.pkl'
 
-classes = ['non adulterated', 'adulterated']
+classes = ['not adulterated', 'adulterated', 'not food']
 path = Path(__file__).parent
 
 app = Starlette()
