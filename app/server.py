@@ -12,7 +12,7 @@ from starlette.staticfiles import StaticFiles
 export_file_url = 'https://drive.google.com/uc?export=download&id=12dcHCZRgJ7aJbeBRQJnw04oo-Nz_InLk'
 export_file_name = 'resnet34.pkl'
 
-classes = ['not adulterated', 'adulterated', 'not food']
+classes = ['not food', 'not adulterated', 'adulterated']
 path = Path(__file__).parent
 
 app = Starlette()
