@@ -9,10 +9,10 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://drive.google.com/uc?export=download&id=1-0LZx6f1eY9LiBbcYTxJeWUnqE0twL15'
+export_file_url = 'https://drive.google.com/uc?export=download&id=1V--Jnm7B3gxcMzwRGOGzxkY08lsQy0lu'
 export_file_name = 'export.pkl'
 
-classes = ['not food', 'not adulterated', 'adulterated']
+classes = ['not a food', 'Non Adulterated Rice', 'Non Adulterated Flour', 'Adulterated Rice', 'Adulterated Flour']
 path = Path(__file__).parent
 
 app = Starlette()
